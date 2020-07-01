@@ -1,0 +1,102 @@
+body{
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+}
+.bg-head{
+    background-image: url("images/header-bg.png");
+}
+p{
+    font-weight: 600px;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: turquoise;
+}
+.half{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding: 2%;
+}
+.half img{
+    width: 100%;
+    margin-left: 10%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(60deg, turquoise, #0077ff);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+section{
+    height: 500px;
+    padding: 20px;
+}
+.bg-bio{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.l-work{
+    width: 25%;
+    margin-left: 3%;
+    float: left;
+    padding: 2%;
+}
+.l-work img{
+    width: 100%;
+}
+#latest{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;    
+    background-position: center;
+}
+.work{
+    
+}
+h6{
+    font-weight: 100px;
+}
+.comment{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: -90px;
+}
+.contract{
+    margin-top: -25px;
+    margin-left: 25%;
+    background-image: linear-gradient(45deg, tomato, darkred) ;
+    border-radius: 10%; 
+    width: 50%;   
+}
+#messege{
+width: 300px;
+height: 80px;
+}
+h5{
+    margin-top: 10%;
+    color: white;
+    font-weight: 900px;
+}
+footer{
+    margin-top: 10%;
+    text-align: center;
+}
+
+input:focus{
+    color: greenyellow;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+a:visited{
+    color: teal;
+}
